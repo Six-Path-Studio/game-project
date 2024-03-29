@@ -99,7 +99,7 @@ export default function Home() {
               <div className="relative w-[80%] mx-auto">
                 <div className="border-2 origin-top-left border-white rounded-[20px] absolute top-0 w-full rotate-[-4.90deg] bg-[#0F0F0F] top-14 h-[150px]"></div>
                 <div className="border-2 absolute top-0 left-6 w-full bg-[#0F0F0F] border-white -rotate-1 rounded-[20px] h-[200px]">
-                <img src="/images/sps.png" className="w-[80%] mx-auto my-8" alt="" />
+                  <img src="/images/sps.png" className="w-[80%] mx-auto my-8" alt="" />
                 </div>
               </div>
             </div>
@@ -112,6 +112,22 @@ export default function Home() {
             </div>
           </div>
 
+        </div>
+      </section>
+      <section className="my-10 bg-[#0B0B0B] p-10">
+        <div className="w-[40%] mx-auto text-center">
+          <h1 className="text-5xl font-bold my-3">Join our community:</h1>
+          <p className="p-6">Join our vibrant community today and embark on a journey of learning, creativity, and innovation. Together, let’s unlock the potential of Africa’s gaming industry and shape the future of interactive entertainment.</p>
+          <div className="flex justify-between mt-4">
+            <motion.button whileHover={{
+              scale: 1.2,
+              transition: { duration: 1 },
+            }} className="bg-[#5627FF] w-full text-white p-3 rounded-md text-sm font-medium">Click to join our community</motion.button>
+            <motion.button whileHover={{
+              scale: 1.2,
+              transition: { duration: 1 },
+            }} className="bg-[#EF5DA8] w-full text-white p-3 rounded-md text-sm font-medium ml-6">Learn More Here</motion.button>
+          </div>
         </div>
       </section>
     </HomeLayout>

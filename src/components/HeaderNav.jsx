@@ -6,7 +6,7 @@ import {
 
 const HeaderNav = () => {
   return (
-    <header className='fixed p-6 top-0 w-full px-32 bg-transparent flex justify-between'>
+    <header className='fixed p-6 top-0 w-full z-30 px-32 bg-transparent flex justify-between'>
       <Link href={"/"}>
         <img className='w-40' src="/images/logo.svg" alt="" />
       </Link>

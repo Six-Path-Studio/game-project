@@ -5,6 +5,7 @@ import HeaderNav from '@/components/HeaderNav';
 import React from 'react';
 import { AnimatePresence } from 'framer-motion'
 import { motion } from "framer-motion";
+import Footer from '@/components/Footer';
 
 const HomeLayout = ({ children }) => {
   return (
@@ -21,6 +22,7 @@ const HomeLayout = ({ children }) => {
           }}>
           {children}
         </motion.div>
+        <Footer />
       </main>
     </AnimatePresence>
   );
