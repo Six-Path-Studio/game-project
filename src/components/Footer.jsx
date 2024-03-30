@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='p-20'>
-      <footer className='flex p-10 text-[#FFFFFF80] justify-evenly bg-[#0B0B0B]'>
+    <div className='lg:p-20 p-4'>
+      <footer className='lg:flex lg:p-10 p-4 text-[#FFFFFF80] justify-evenly bg-[#0B0B0B]'>
         <div>
           <img src="/images/logo.svg" className='w-32 mb-4' alt="" />
           <p className='text-sm my-1'>Port Harcourt, <br />

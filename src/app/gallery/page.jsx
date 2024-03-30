@@ -2,12 +2,37 @@ import React from 'react';
 import HomeLayout from "@/layout/HomeLayout";
 
 const gallery = () => {
+  const images = [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+  ]
   return (
     <HomeLayout>
       <section className='mt-32'>
-        <h1 className='text-3xl text-center'>Our Gallery</h1>
-        <div className='flex flex-wrap'>
-          
+        <div className='border-2 border-[#CECECE] mx-auto rotate-[2.17deg] w-52 text-center p-3 rounded-md text-xl'>
+          Our Gallery
+        </div>
+        <div className='grid-cols-3 gap-3	grid lg:px-32 px-4 py-12'>
+          {images.map((single, index) => <img className='h-full my-3 object-cover' src={'/images/gallery/item-' + index + '.png'} />)}
         </div>
       </section>
     </HomeLayout>

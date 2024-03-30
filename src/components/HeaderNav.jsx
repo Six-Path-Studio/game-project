@@ -6,11 +6,11 @@ import {
 
 const HeaderNav = () => {
   return (
-    <header className='fixed p-6 top-0 w-full z-30 px-32 bg-transparent flex justify-between'>
+    <header className='fixed p-6 top-0 w-full z-30 lg:px-32 px-4 bg-transparent flex justify-between'>
       <Link href={"/"}>
-        <img className='w-40' src="/images/logo.svg" alt="" />
+        <img className='lg:w-40 w-1/2' src="/images/logo.svg" alt="" />
       </Link>
-      <div className='flex justify-between w-[40%] my-auto text-sm'>
+      <div className='lg:flex hidden justify-between w-[40%] my-auto text-sm'>
         <Link href={"/about"}>
           <p>About</p>
         </Link>
@@ -24,7 +24,7 @@ const HeaderNav = () => {
         <p>Blog</p>
         <p>Community</p>
       </div>
-      <div>
+      <div className='lg:block hidden'>
         <motion.button whileHover={{
           scale: 1.1,
           transition: { duration: 1 },
@@ -34,6 +34,7 @@ const HeaderNav = () => {
           transition: { duration: 1 },
         }} className='bg-[#2BC055] p-2 rounded-sm ml-3 text-sm text-white'>Contact Us</motion.button>
       </div>
+      <div className='lg:hidden block'></div>
     </header>
   );
 };
