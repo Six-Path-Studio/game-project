@@ -1,5 +1,6 @@
 "use client"
 
+import CTA from "@/components/CTA";
 import HomeLayout from "@/layout/HomeLayout";
 import {
   motion
@@ -114,22 +115,7 @@ export default function Home() {
 
         </div>
       </section>
-      <section className="my-10 bg-[#0B0B0B] lg:p-10 p-4">
-        <div className="lg:w-[40%] mx-auto text-center">
-          <h1 className="text-5xl font-bold my-3">Join our community:</h1>
-          <p className="p-6">Join our vibrant community today and embark on a journey of learning, creativity, and innovation. Together, let’s unlock the potential of Africa’s gaming industry and shape the future of interactive entertainment.</p>
-          <div className="flex justify-between mt-4">
-            <motion.button whileHover={{
-              scale: 1.2,
-              transition: { duration: 1 },
-            }} className="bg-[#5627FF] w-full text-white p-3 rounded-md text-sm font-medium">Click to join our community</motion.button>
-            <motion.button whileHover={{
-              scale: 1.2,
-              transition: { duration: 1 },
-            }} className="bg-[#EF5DA8] w-full text-white p-3 rounded-md text-sm font-medium ml-6">Learn More Here</motion.button>
-          </div>
-        </div>
-      </section>
+      <CTA />
     </HomeLayout>
   );
 }

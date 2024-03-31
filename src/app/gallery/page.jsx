@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeLayout from "@/layout/HomeLayout";
+import CTA from '@/components/CTA';
 
 const gallery = () => {
   const images = [
@@ -32,9 +33,10 @@ const gallery = () => {
           Our Gallery
         </div>
         <div className='grid-cols-3 gap-3	grid lg:px-32 px-4 py-12'>
-          {images.map((single, index) => <img className='h-full my-3 object-cover' src={'/images/gallery/item-' + index + '.png'} />)}
+          {images.map((single, index) => <img key={index} className='h-full my-3 object-cover' src={'/images/gallery/item-' + index + '.png'} />)}
         </div>
       </section>
+      <CTA />
     </HomeLayout>
   );
 };

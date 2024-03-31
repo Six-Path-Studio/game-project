@@ -13,3 +13,11 @@ body {
 .btn {
   background: linear-gradient(270deg, #A86CF5 0%, #40A261 100%);
 }
+
+.pattern {
+  background: url('../../public/images/Vector.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F0F0F0;
+}
