@@ -18,7 +18,7 @@ const HeaderNav = () => {
         <Link href={"/garnr"}>
           <p>Garnr</p>
         </Link>
-        <p>Game Studio</p>
+        <a href="https://sixpathstudio.xyz/">        <p>Game Studio</p></a>
         <Link href={"/gallery"}>
           <p>Gallery</p>
         </Link>
@@ -47,7 +47,8 @@ const HeaderNav = () => {
           <Link href={"/garnr"}>
             <p className='my-4'>Garnr</p>
           </Link>
-          <p className='my-4'>Game Studio</p>
+          <a href="https://sixpathstudio.xyz/"><p className='my-4'>Game Studio</p>
+          </a>
           <Link href={"/gallery"}>
             <p className='my-4'>Gallery</p>
           </Link>
