@@ -9,20 +9,24 @@ import {
 export default function Home() {
   return (
     <HomeLayout>
-      <section className="my-44 lg:w-[45%] text-center mx-auto">
-        <h2 className="lg:text-6xl text-4xl font-medium">Building the next generation of game creators in Africa.</h2>
-        <p className="p-4">"Building the next generation of game creators and gamers, one step, one city, one region at a time, while fostering inclusive representation of Africans in the gaming industry."</p>
-        <div>
-          <motion.button whileHover={{
-            scale: 1.2,
-            transition: { duration: 1 },
-          }} className="bg-white text-[#040404] p-3 rounded-md text-sm font-medium">Join Our Community</motion.button>
-          <motion.button whileHover={{
-            scale: 1.2,
-            transition: { duration: 1 },
-          }} className="bg-[#406AFF] text-white p-3 rounded-md text-sm font-medium ml-6">Learn More</motion.button>
-        </div>
-      </section>
+      <div className="relative ">
+        <img src="/images/pattern-1.svg" className="absolute lg:w-[70%] sm:hidden h-full left-0 right-0 mx-auto top-0" alt="" />
+
+        <section className="my-44 lg:w-[45%] text-center mx-auto">
+          <h2 className="lg:text-6xl text-4xl font-medium">Building the next generation of game creators in Africa.</h2>
+          <p className="p-4">"Building the next generation of game creators and gamers, one step, one city, one region at a time, while fostering inclusive representation of Africans in the gaming industry."</p>
+          <div className="relative z-10">
+            <motion.button whileHover={{
+              scale: 1.2,
+              transition: { duration: 1 },
+            }} className="bg-white text-[#040404] p-3 rounded-md text-sm font-medium">Join Our Community</motion.button>
+            <motion.button whileHover={{
+              scale: 1.2,
+              transition: { duration: 1 },
+            }} className="bg-[#406AFF] text-white p-3 rounded-md text-sm font-medium ml-6">Learn More</motion.button>
+          </div>
+        </section>
+      </div>
       <section className="h-[200px]">
         <div className="relative lg:w-1/2 w-[80%] mx-auto">
           <div className="border-2 origin-top-left border-white rounded-[20px] absolute top-0 w-full rotate-[-2.90deg] bg-[#0F0F0F] top-10 h-[120px]"></div>

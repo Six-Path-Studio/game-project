@@ -13,7 +13,7 @@ const Footer = () => {
           <p className='font-bold text-white mb-4'>Ecosystem</p>
           <p className='text-sm my-1'>Game Education</p>
           <p className='text-sm my-1'>Game Studio</p>
-          <p className='text-sm my-1'>Garnr</p>
+          <p className='text-sm my-1'>Edenn</p>
           <p className='text-sm my-1'>Community</p>
         </div>
         <div>

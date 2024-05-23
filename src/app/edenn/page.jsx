@@ -62,7 +62,7 @@ const garnr = () => {
                 </div>
               </div>
             </div>
-            <p className='text-center text-lg '>Garnr is your all-in-one platform for Africa’s creative and interactive media industry. Connect with top talent, find creatives, hire creators, connect with gamers, and collaborate seamlessly.
+            <p className='text-center text-lg '>Edenn is your all-in-one platform for Africa’s creative and interactive media industry. Connect with top talent, find creatives, hire creators, connect with gamers, and collaborate seamlessly.
               <br />
               Join us in shaping Africa’s creative space and beyond.</p>
           </div>
@@ -70,7 +70,7 @@ const garnr = () => {
         </div>
       </section>
       <section className='bg-[#241834] lg:p-12 p-4 my-12 lg:mx-32'>
-        <h2 className='lg:text-4xl text-3xl w-80 font-medium'>Who should be on garnr?</h2>
+        <h2 className='lg:text-4xl text-3xl w-80 font-medium'>Who should be on edenn?</h2>
         <div className='flex mt-6 flex-wrap '>
           {stacks.map((stack, index) => <button key={index} className='flex mr-4 lg:min-w-52 lg:px-6 my-2 bg-[#FFFFFF1A] p-3 justify-between rounded-md'>
             <img className='my-auto' src="/images/cloud.svg" alt="" />
@@ -84,7 +84,7 @@ const garnr = () => {
             <img src="/images/app-4.png" alt="" />
           </div>
           <div className='lg:w-[70%] lg:p-8 sm:py-10 my-auto'>
-            <h1 className='lg:text-6xl text-3xl font-bold'>Dont’ hesitate any longer, download the garnr app now!</h1>
+            <h1 className='lg:text-6xl text-3xl font-bold'>Dont’ hesitate any longer, download the edenn app now!</h1>
             <p className='my-6'>Available on Google Play-store and Apple Store</p>
 
             <div>

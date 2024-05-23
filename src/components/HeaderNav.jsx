@@ -15,15 +15,15 @@ const HeaderNav = () => {
         <Link href={"/about"}>
           <p>About</p>
         </Link>
-        <Link href={"/garnr"}>
-          <p>Garnr</p>
+        <Link href={"/edenn"}>
+          <p>Edenn</p>
         </Link>
-        <a href="https://sixpathstudio.xyz/">        <p>Game Studio</p></a>
+        <a href="https://sixpathstudio.xyz/"><p>Game Studio</p></a>
         <Link href={"/gallery"}>
           <p>Gallery</p>
         </Link>
         <p>Blog</p>
-        <p>Community</p>
+        <Link href={'/merch'}><p>Merch</p></Link>
       </div>
       <div className='lg:block hidden'>
         <motion.button whileHover={{
@@ -44,8 +44,8 @@ const HeaderNav = () => {
           <Link href={"/about"}>
             <p className='my-4'>About</p>
           </Link>
-          <Link href={"/garnr"}>
-            <p className='my-4'>Garnr</p>
+          <Link href={"/edenn"}>
+            <p className='my-4'>Edenn</p>
           </Link>
           <a href="https://sixpathstudio.xyz/"><p className='my-4'>Game Studio</p>
           </a>
@@ -53,7 +53,7 @@ const HeaderNav = () => {
             <p className='my-4'>Gallery</p>
           </Link>
           <p className='my-4'>Blog</p>
-          <p className='my-4'>Community</p>
+          <Link href={'/merch'}><p className='my-4'>Merch</p></Link>
 
 
           <motion.button whileHover={{

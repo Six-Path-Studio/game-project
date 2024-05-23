@@ -5,10 +5,13 @@ import React from 'react';
 const about = () => {
   return (
     <HomeLayout>
-      <section className="my-44 lg:w-[45%] text-center mx-auto">
-        <h2 className="lg:text-6xl text-4xl font-medium">What do we do at Gameverse Africa Education?</h2>
-        <p className="p-4">"Gameverse is dedicated in revolutionizing game development education accessibility in Africa, starting with Nigeria. Committed in unlocking the full potential of individuals, it focuses on game providing education in undeserved and rural communities within Nigeria."</p>
-        {/* <div>
+      <div className='relative'>
+        <img src="/images/pattern-1.svg" className="absolute w-[70%] sm:hidden left-0 right-0 mx-auto top-0" alt="" />
+
+        <section className="my-44 lg:w-[45%] text-center mx-auto">
+          <h2 className="lg:text-6xl text-4xl font-medium">What do we do at Gameverse Africa Education?</h2>
+          <p className="p-4">"Gameverse is dedicated in revolutionizing game development education accessibility in Africa, starting with Nigeria. Committed in unlocking the full potential of individuals, it focuses on game providing education in undeserved and rural communities within Nigeria."</p>
+          {/* <div>
           <motion.button whileHover={{
             scale: 1.2,
             transition: { duration: 1 },
@@ -18,7 +21,8 @@ const about = () => {
             transition: { duration: 1 },
           }} className="bg-[#406AFF] text-white p-3 rounded-md text-sm font-medium ml-6">Learn More</motion.button>
         </div> */}
-      </section>
+        </section>
+      </div>
       <section className="lg:w-[80%] rounded-xl bg-[#F0F0F0] lg:p-0 p-4 my-10 mx-auto">
         <div className="lg:flex justify-between">
           <div className="bg-[#FFFFFF] lg:w-1/2 rounded-xl p-4">
