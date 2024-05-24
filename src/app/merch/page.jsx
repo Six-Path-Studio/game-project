@@ -21,6 +21,30 @@ const merch = () => {
             }} className="bg-[#406AFF] text-white p-3 px-6 rounded-md text-sm font-medium ml-6">Coming Soon</motion.button>
           </div>
         </section>
+        <section className="lg:w-[80%] lg:p-0 p-4 my-10 mx-auto">
+          <div className="lg:flex justify-between">
+            <div className="lg:w-1/2">
+              <img src="/images/merch.png" alt="" />
+            </div>
+            <div className="lg:mt-0 mt-4 lg:w-1/2 border border-[#6D6D6D] bg-[#0B0B0B] rounded-r-xl p-4">
+              <div className="h-[150px] my-12">
+                <div className="relative lg:w-[80%] w-[90%] mx-auto">
+                  <div className="border-2 origin-top-left border-white rounded-[20px] absolute top-0 w-full rotate-[-4.90deg] bg-[#0F0F0F] lg:h-[160px] p-4 h-[160px]">
+                    <img src="/images/store.png" className='mx-auto mt-12' alt="" />
+                  </div>
+                </div>
+              </div>
+              <p className="text-center lg:w-[80%] mx-auto lg:text-lg">Welcome to Gameverse Africa's Merch Store, where creativity meets style! Dive into our world of game and anime inspired merchandise crafted for the creative industry, by the creative industry. From trendy apparel to cool accessories like hats and flasks, we've got you covered.</p>
+              <div className="text-center my-6">
+                <motion.button whileHover={{
+                  scale: 1.2,
+                  transition: { duration: 1 },
+                }} className="text-[#FFB800] hover:bg-white p-3 rounded-md flex justify-between mx-auto">Shop now, on Selar <img className="w-6 my-auto ml-4" src="/images/shop.svg" alt="" /></motion.button>
+              </div>
+            </div>
+
+          </div>
+        </section>
 
         <section className='bg-[#121914] relative lg:p-12 p-4 my-12 lg:mx-32'>
           <img src="/images/pattern.svg" alt="" className='absolute left-0 top-0' />

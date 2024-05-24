@@ -33,9 +33,9 @@ const garnr = () => {
           <div className='border sm:mt-4 relative p-4 border-[#6D6D6D] rounded-md'>
             <img src="/images/image-2.png" alt="" />
             <div className='absolute bottom-6 w-[75%] left-0 right-0 mx-auto bg-[#0F0F0F] border-2 border-[#CECECE] text-2xl p-3 rounded-md'>
-              A creative hub
-              for creatives
-              in Africa
+              A hub for
+              gamers &
+              pro-gamers
             </div>
           </div>
           <div className='border sm:mt-4 p-4 relative border-[#6D6D6D] rounded-md'>

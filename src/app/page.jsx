@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <HomeLayout>
       <div className="relative ">
-        <img src="/images/pattern-1.svg" className="absolute lg:w-[70%] sm:hidden h-full left-0 right-0 mx-auto top-0" alt="" />
+        <img src="/images/pattern-1.svg" className="absolute lg:w-[80%] sm:hidden h-full left-0 right-0 mx-auto top-0" alt="" />
 
         <section className="my-44 lg:w-[45%] text-center mx-auto">
           <h2 className="lg:text-6xl text-4xl font-medium">Building the next generation of game creators in Africa.</h2>
@@ -48,8 +48,8 @@ export default function Home() {
           <div className="border lg:mt-0 mt-4 lg:w-1/2 lg:ml-4 border-[#6D6D6D] bg-[#0B0B0B] rounded-xl p-4">
             <div className="h-[250px] my-12">
               <div className="relative w-[80%] mx-auto">
-                <div className="border-2 origin-top-left border-white rounded-[20px] absolute top-0 w-full rotate-[-4.90deg] bg-[#0F0F0F] top-14 lg:h-[150px] h-[200px]"></div>
-                <div className="border-2 absolute top-0 left-6 w-full bg-[#0F0F0F] border-white -rotate-1 rounded-[20px] lg:h-[200px]">
+                <div className="border-2 origin-top-left border-white rounded-[20px] absolute top-0 w-full rotate-[-4.90deg] bg-[#0F0F0F] top-14 lg:h-[160px] h-[200px]"></div>
+                <div className="border-2 absolute top-0 left-6 w-full bg-[#0F0F0F] border-white -rotate-1 rounded-[20px]">
                   <p className="lg:text-4xl text-3xl p-4 font-medium my-4 text-center">Game Development Education in underserve regions</p>
                 </div>
               </div>

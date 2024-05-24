@@ -6,7 +6,7 @@ const about = () => {
   return (
     <HomeLayout>
       <div className='relative'>
-        <img src="/images/pattern-1.svg" className="absolute w-[70%] sm:hidden left-0 right-0 mx-auto top-0" alt="" />
+        <img src="/images/pattern-1.svg" className="absolute w-[80%] sm:hidden left-0 right-0 mx-auto top-0" alt="" />
 
         <section className="my-44 lg:w-[45%] text-center mx-auto">
           <h2 className="lg:text-6xl text-4xl font-medium">What do we do at Gameverse Africa Education?</h2>
