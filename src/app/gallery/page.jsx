@@ -33,7 +33,7 @@ const gallery = () => {
           Our Gallery
         </div>
         <div className='lg:grid-cols-3 gap-3	grid lg:px-32 px-4 py-12'>
-          {images.map((single, index) => <img key={index} className='h-full my-4 object-cover' src={'/images/gallery/item-' + index + '.png'} />)}
+          {images.map((single, index) => <img key={index} className='h-full my-4 object-cover' src={'./images/gallery/item-' + index + '.png'} />)}
         </div>
       </section>
       <CTA />
